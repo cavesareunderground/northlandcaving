@@ -1,0 +1,19 @@
+
+
+.mainstyle{
+
+    background-color: rgb(179, 16, 194);
+    color: rgb(77, 255, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+}
+
+.sectionstyle{
+    background-color: rgb(16, 194, 161);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+
+}
