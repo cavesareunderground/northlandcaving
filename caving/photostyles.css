@@ -1,0 +1,587 @@
+.mainstyle{
+
+    background-color: rgb(179, 16, 194);
+    color: rgb(77, 255, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    width : "fit-content";
+    height : "fit-content";
+}
+
+.sectionstyle{
+    background-color: rgb(16, 194, 161);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align : center;
+
+}
+
+.container{
+    display : grid;
+    width : "fit-content";
+    height : "fit-content";
+
+}
+
+.picheading{
+    text-align:center;
+    padding:50px;
+    grid-column-start : 1;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end:1;
+}
+
+.pic0{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end:1;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic1{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic2{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic3{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic4{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic5{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:2;
+    grid-row-end:2;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+/*  end of row 2   */
+
+
+
+
+
+.pic6{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:3;
+    grid-row-end:3;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+.pic7{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end:3;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic8{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end:3;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic9{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end:3;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+.pic10{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:3;
+    grid-row-end:3;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+/*  end of row 3   */
+
+
+
+.pic11{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:4;
+    grid-row-end:4;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic12{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:4;
+    grid-row-end:4;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+.pic13{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end:4;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+.pic14{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:4;
+    grid-row-end:4;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+
+
+.pic15{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:4;
+    grid-row-end:4;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+/*  end of row 4   */
+
+.pic16{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic17{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic18{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+.pic19{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic20{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:5;
+    grid-row-end:5;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+/*  end of row 5   */
+
+
+.pic21{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:6;
+    grid-row-end:6;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic22{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:6;
+    grid-row-end:6;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic23{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:6;
+    grid-row-end:6;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic24{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:6;
+    grid-row-end:6;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+.pic25{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:6;
+    grid-row-end:6;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+/*  end of row 6   */
+
+
+.pic26{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:7;
+    grid-row-end:7;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic27{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:7;
+    grid-row-end:7;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+
+.pic28{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:7;
+    grid-row-end:7;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic29{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:7;
+    grid-row-end:7;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic30{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:7;
+    grid-row-end:7;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+/*  end of row 7   */
+
+.pic31{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:8;
+    grid-row-end:8;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic32{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:8;
+    grid-row-end:8;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic33{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:8;
+    grid-row-end:8;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic34{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:8;
+    grid-row-end:8;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic35{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:8;
+    grid-row-end:8;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+/*  end of row 8   */
+
+
+.pic36{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:9;
+    grid-row-end:9;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+.pic37{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:9;
+    grid-row-end:9;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic38{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:9;
+    grid-row-end:9;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic39{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:9;
+    grid-row-end:9;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic40{
+    grid-column-start : 5;
+    grid-column-end: 5;
+    grid-row-start:9;
+    grid-row-end:9;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+
+/*  end of row 9   */
+
+
+.pic41{
+    grid-column-start : 1;
+    grid-column-end: 1;
+    grid-row-start:10;
+    grid-row-end:10;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic42{
+    grid-column-start : 2;
+    grid-column-end: 2;
+    grid-row-start:10;
+    grid-row-end:10;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic43{
+    grid-column-start : 3;
+    grid-column-end: 3;
+    grid-row-start:10;
+    grid-row-end:10;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+.pic44{
+    grid-column-start : 4;
+    grid-column-end: 4;
+    grid-row-start:10;
+    grid-row-end:10;
+    padding : 5px;
+    width : "fit-content";
+    height : "fit-content";
+    text-align:center;
+}
+
+/*  end of row 10   */
+
+
