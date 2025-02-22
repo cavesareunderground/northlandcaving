@@ -1,25 +1,30 @@
 
-var x = 0
 
 
 
 
-function p1ChgFn() {
+function page1() {
 
 
-    if (x == 0) {document.getElementById('myBody').innerHTML = '<link rel="stylesheet" href="https://northlandcaving.github.io/caving/photostyles.css">  \n \
+    document.getElementById('myBody').innerHTML = '<link rel="stylesheet" href="https://northlandcaving.github.io/caving/photostyles.css">  \n \
         \n \
 		<div class="dropdown"> \n \
-            <button class="dropbtn">☰ Caving Photos</button> \n \
-            <div> \n \
+    <button class="dropbtn">☰ Caving Photos</button> \n \
+    <div class = "dropdown-content"> \n \
          \n \
-        		<button class = "dropdown-content" type = "button" onclick="p1ChgFn()"> \n \
-                	> Main \n \
-            	</button> \n \
-            	<script src="https://northlandcaving.github.io/scripts.js"></script>      \n \
-         \n \
-    		</div> \n \
-  		</div> \n \
+            <button class = "content-style" type = "button" onclick="mainpage()"> \n \
+                > Main < \n \
+            </button>  \n \
+            <script src="https://northlandcaving.github.io/scripts.js"></script> \n \
+             \n \
+            <button class = "content-style" type = "button" onclick="page2()">  \n \
+                > Other Projects < \n \
+            </button>  \n \
+            <script src="https://northlandcaving.github.io/scripts.js"></script>  \n \
+             \n \
+    </div> \n \
+	 \n \
+  </div> \n \
 		 \n \
         <div class = "container">   \n \
             \n \
@@ -121,19 +126,27 @@ function p1ChgFn() {
  \n \
             <div class = "pic44">                <img src = "https://northlandcaving.github.io/caving/pic44.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">            </div>';
 
-            x = 1;
-    } else {document.getElementById('myBody').innerHTML = ' \n \
+            
+    } 
+	
+function mainpage() {document.getElementById('myBody').innerHTML = ' \n \
  \n \
-        <div class="dropdown"> \n \
-            <button class="dropbtn">☰ Main</button> \n \
-            <div> \n \
+		<div class="dropdown"> \n \
+    		<button class="dropbtn">☰ Main</button> \n \
+    		<div class = "dropdown-content"> \n \
          \n \
-        		<button class = "dropdown-content" type = "button" onclick="p1ChgFn()"> \n \
-                	> Caving Photos\n \
-            	</button> \n \
-            	<script src="https://northlandcaving.github.io/scripts.js"></script>      \n \
-         \n \
+            	<button class = "content-style" type = "button" onclick="page1()"> \n \
+                	> Caving Photos < \n \
+            	</button>  \n \
+            	<script src="https://northlandcaving.github.io/scripts.js"></script> \n \
+            \n \
+            	<button class = "content-style" type = "button" onclick="page2()">  \n \
+                	> Other Projects < \n \
+            	</button>  \n \
+            	<script src="https://northlandcaving.github.io/scripts.js"></script>  \n \
+             \n \
     		</div> \n \
+	 \n \
   		</div> \n \
         \n \
        <div id = "myDIV" class = "sectionstyle" > \n \
@@ -179,56 +192,56 @@ function p1ChgFn() {
             <div class = "picheading"><h1>Caving Trip Pictures:</h1></div> \n \
      \n \
             <div class = "pic1"> \n \
-                <img  src = "https://northlandcaving.github.io/caving/pic1.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img  src = "caving/pic1.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic2"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic2.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic5.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic3"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic3.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic9.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic4"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic4.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic13.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic5"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic5.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic17.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic6"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic6.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic21.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
                 \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic7"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic7.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic25.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic8"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic8.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic29.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
      \n \
             </div> \n \
      \n \
             <div class = "pic9"> \n \
-                <img src = "https://northlandcaving.github.io/caving/pic9.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
+                <img src = "caving/pic33.jpg" alt = "Nothing to show" style = "width:250px;height:250px;"> \n \
      \n \
      \n \
             </div> \n \
             \n \
             <div class = "otherpagelink"> \n \
-            <button type = "button" onclick="p1ChgFn()"> \n \
+            <button type = "button" onclick="page1()"> \n \
                 All Photos... \n \
             </button> \n \
             <script src="https://northlandcaving.github.io/scripts.js"></script>      \n \
@@ -236,13 +249,43 @@ function p1ChgFn() {
              \n \
         </div> \n \
  \n \
-  </div>'; x = 0
+  </div>';
 
     }
     
-    
-    
-}
 
 
 
+
+
+
+
+function page2() {
+
+
+    document.getElementById('myBody').innerHTML = '<link rel="stylesheet" href="https://northlandcaving.github.io/styles.css">  \n \
+		\n \
+		<div class="dropdown"> \n \
+    		<button class="dropbtn">☰ Other Projects</button> \n \
+    		<div class = "dropdown-content"> \n \
+         \n \
+            	<button class = "content-style" type = "button" onclick="mainpage()"> \n \
+               		> Main < \n \
+            	</button>  \n \
+            	<script src="https://northlandcaving.github.io/scripts.js"></script> \n \
+             \n \
+            	<button class = "content-style" type = "button" onclick="page1()">  \n \
+                	> Caving Photos <  \n \
+            	</button>  \n \
+            	<script src="https://northlandcaving.github.io/scripts.js"></script>  \n \
+             \n \
+    		</div> \n \
+	 \n \
+  	</div> \n \
+		 \n \
+    <div class = "container">   \n \
+            \n \
+        </div>    ';
+
+            
+	}
