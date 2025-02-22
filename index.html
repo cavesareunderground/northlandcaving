@@ -19,6 +19,12 @@
 <!-- make icon, place here -->
 
         <link rel="stylesheet" href="https://northlandcaving.github.io/styles.css">
+        
+
+        <script src=
+        "https://northlandcaving.github.io/scripts.js">
+        </script>
+        
 
 <!--  Links html file to CSS styles in external file    -->
 
@@ -26,31 +32,41 @@
 <!-- end of head -->
 
 
-    <body class = "mainstyle">
+    <body id = "myBody" class = "mainstyle">
 <!-- start of page body-->
 
 
 
-
+<div class="dropdown">
+    <button class="dropbtn">☰ Main</button>
+    <div>
+        
+            <button class = "dropdown-content" type = "button" onclick="p1ChgFn()">
+                > Caving Photos
+            </button>
+            <script src="https://northlandcaving.github.io/scripts.js"></script>     
+        
+    </div>
+  </div>
 
         <div id = "myDIV" class = "sectionstyle" >
-    <!-- page section divided into its own part, has mainstyle class applied -->
+            <!-- page section divided into its own part, has mainstyle class applied -->
 
             <h1>Northland Underground Republic</h1>
 
-    <!-- first page heading -->
+            <!-- first page heading -->
 
-    
+            
 
             <p1 id = "para1" >Welcome to the Northland Underground Republic (NUR), a club for people unaffected by claustrophobia.</p1>
 
-            <button type = "button" onclick="p1ChgFn()">
-                Change Heading
-            </button>
+            
 
-            <script src="https://northlandcaving.github.io/scripts.js"></script> 
+            
 
         </div>
+    
+        
 <!-- end of divided section -->
 
     <div class = "container">
@@ -84,73 +100,79 @@
         </div>
 
 
-
         <div class = "pictures">
 
             <div class = "picheading"><h1>Caving Trip Pictures:</h1></div>
-
+    
             
-
+    
             
             <div class = "pic1">
                 <img  src = "https://northlandcaving.github.io/caving/pic1.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic2">
                 <img src = "https://northlandcaving.github.io/caving/pic2.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic3">
                 <img src = "https://northlandcaving.github.io/caving/pic3.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic4">
                 <img src = "https://northlandcaving.github.io/caving/pic4.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic5">
                 <img src = "https://northlandcaving.github.io/caving/pic5.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic6">
                 <img src = "https://northlandcaving.github.io/caving/pic6.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic7">
                 <img src = "https://northlandcaving.github.io/caving/pic7.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic8">
                 <img src = "https://northlandcaving.github.io/caving/pic8.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
-
+    
             <div class = "pic9">
                 <img src = "https://northlandcaving.github.io/caving/pic9.jpg" alt = "Nothing to show" style = "width:250px;height:250px;">
-
-
+    
+    
             </div>
 
-            <div class = "otherpagelink">
-                <a href = "https://northlandcaving.github.io/photoindex.html" target = "_blank">View All Photos...</a>
+            <div class = 'otherpagelink'>
+            <button type = "button" onclick="p1ChgFn()">
+                All Photos...
+            </button>
+            <script src="https://northlandcaving.github.io/scripts.js"></script>     
             </div>
             
+            
         </div>
+
+
+      
         
 
     </div>
@@ -162,6 +184,9 @@
 <!-- end of page -->
 
 </html>
+
+
+
     
 
 
