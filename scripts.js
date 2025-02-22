@@ -176,6 +176,8 @@ function mainpage() {document.getElementById('myBody').innerHTML = ' \n \
 <dd>>Issues with CSS styling in HTML file, not currently fixed</dd> \n \
     <dt>17-02-2025</dt> \n \
 <dd>>Some additions to web page</dd> \n \
+	<dt>22-02-2025</dt> \n \
+<dd>>Site is up and running with no known issues, and access to all pages</dd> \n \
 </dl> \n \
  \n \
         </div> \n \
