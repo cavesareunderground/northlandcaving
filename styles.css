@@ -1,5 +1,90 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: rgb(16, 194, 161);
+    color: rgb(255, 255, 255);
+    
+    height:30px;
+    width:150px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(16, 194, 161);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height:30px;
+    width:150px;
+    text-align:center;
+    cursor: pointer;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(16, 194, 161);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height:30px;
+    width:150px;
+    font-size: 14px;
+    text-align:center;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #94e0f8}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #8fecff;
+  }
+
+  .dropdown-content:hover{background-color: #94e0f8}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mainstyle{
 
     background-color: rgb(179, 16, 194);
